@@ -17,5 +17,5 @@ Pagina simulación de una automotora incorporando diversas tecnicas solicitadas 
 
 ## Version en vivo
 
-[Github Pages](https://aenema25.github.io/pruebatecnica-quiebre.cl/)
-[Netlify](https://ventadeautos.netlify.app/)
+- [Github Pages](https://aenema25.github.io/pruebatecnica-quiebre.cl/)
+- [Netlify](https://ventadeautos.netlify.app/)
