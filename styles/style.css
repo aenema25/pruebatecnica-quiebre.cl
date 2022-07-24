@@ -56,7 +56,7 @@ body {
 .navMenu a:last-child {
     padding: 10px;
     border-radius: 25px;
-    background-color: #736e4e;
+    background-color: #fda100;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -88,6 +88,7 @@ section {
         width: 100%;
     }
 }
+
 .car-animation {
     animation: myfirst 2s;
 }
@@ -139,6 +140,10 @@ section {
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.slider-container::-webkit-scrollbar,.carrousel::-webkit-scrollbar {
+    display: none;
 }
 
 .slider-item {
@@ -259,7 +264,7 @@ section {
 
 .button {
     grid-column: span 2;
-    background-color: #736e4e;
+    background-color: #fda100;
     padding: 15px;
     color: #FAFAFC;
     width: 150px;
@@ -399,7 +404,7 @@ section {
 .menu-footer li:last-child a {
     padding: 10px;
     border-radius: 25px;
-    background-color: #736e4e;
+    background-color: #fda100;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -436,7 +441,8 @@ section {
         padding-left: 1em;
         padding-right: 1em;
     }
-    .carrousel{
+
+    .carrousel {
         max-width: calc(100vw - 2em);
     }
 }
