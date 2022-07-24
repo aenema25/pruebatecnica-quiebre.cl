@@ -465,10 +465,6 @@ section {
         grid-template-rows: 1fr 2fr;
     }
 
-    .dots {
-        bottom: 0;
-    }
-
     .cotizar {
         text-align: center;
         padding-top: 5em;
